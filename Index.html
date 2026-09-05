@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Alexander Wright — Executive Advisory</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-surface-variant": "#45464d",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-high": "#e6e8ea",
+            "tertiary-fixed-dim": "#b7c8e1",
+            "tertiary-fixed": "#d3e4fe",
+            "secondary-fixed-dim": "#b9c7e0",
+            "primary-fixed": "#dae2fd",
+            "surface-variant": "#e0e3e5",
+            "on-tertiary": "#ffffff",
+            "background": "#f7f9fb",
+            "error-container": "#ffdad6",
+            "inverse-primary": "#bec6e0",
+            "on-tertiary-fixed-variant": "#38485d",
+            "error": "#ba1a1a",
+            "on-tertiary-fixed": "#0b1c30",
+            "primary-container": "#131b2e",
+            "on-primary-fixed-variant": "#3f465c",
+            "surface-container-low": "#f2f4f6",
+            "on-secondary-fixed": "#0d1c2f",
+            "tertiary-container": "#0b1c30",
+            "on-secondary-container": "#57657b",
+            "surface-bright": "#f7f9fb",
+            "surface-dim": "#d8dadc",
+            "on-secondary-fixed-variant": "#3a485c",
+            "on-surface": "#191c1e",
+            "on-error-container": "#93000a",
+            "secondary": "#515f74",
+            "surface-container-highest": "#e0e3e5",
+            "on-background": "#191c1e",
+            "on-error": "#ffffff",
+            "on-secondary": "#ffffff",
+            "primary-fixed-dim": "#bec6e0",
+            "tertiary": "#000000",
+            "on-tertiary-container": "#75859d",
+            "secondary-container": "#d5e3fd",
+            "on-primary-fixed": "#131b2e",
+            "inverse-on-surface": "#eff1f3",
+            "secondary-fixed": "#d5e3fd",
+            "surface-tint": "#565e74",
+            "surface-container": "#eceef0",
+            "outline-variant": "#c6c6cd",
+            "on-primary": "#ffffff",
+            "on-primary-container": "#7c839b",
+            "outline": "#76777d",
+            "primary": "#000000",
+            "inverse-surface": "#2d3133",
+            "surface": "#f7f9fb"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "space-xl": "2rem",
+            "gutter-mobile": "1.25rem",
+            "space-lg": "1.5rem",
+            "space-md": "1rem",
+            "container-max-md": "680px",
+            "container-max-lg": "960px",
+            "space-2xl": "3rem",
+            "gutter-desktop": "2rem",
+            "space-xs": "0.5rem",
+            "space-4xl": "6rem",
+            "space-sm": "0.75rem",
+            "space-3xl": "4rem",
+            "container-max-sm": "480px",
+            "space-2xs": "0.25rem"
+          },
+          "fontFamily": {
+            "body-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "display-hero": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "headline-sm": ["Plus Jakarta Sans"],
+            "caption": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "display-hero-mobile": ["Plus Jakarta Sans"]
+          },
+          "fontSize": {
+            "body-lg": ["1.125rem", { "lineHeight": "1.6", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "body-md": ["1rem", { "lineHeight": "1.55", "letterSpacing": "-0.005em", "fontWeight": "400" }],
+            "headline-lg": ["2.25rem", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "label-md": ["0.875rem", { "lineHeight": "1.25", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "label-sm": ["0.75rem", { "lineHeight": "1.2", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["1.75rem", { "lineHeight": "1.25", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "display-hero": ["3.5rem", { "lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "700" }],
+            "headline-md": ["1.5rem", { "lineHeight": "1.3", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "headline-sm": ["1.125rem", { "lineHeight": "1.4", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "caption": ["0.75rem", { "lineHeight": "1.4", "letterSpacing": "0.02em", "fontWeight": "500" }],
+            "body-sm": ["0.875rem", { "lineHeight": "1.5", "letterSpacing": "0em", "fontWeight": "400" }],
+            "display-hero-mobile": ["2.25rem", { "lineHeight": "1.15", "letterSpacing": "-0.025em", "fontWeight": "700" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .custom-ring {
+      box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.08), 0 1px 3px 0 rgba(15, 23, 42, 0.03);
+    }
+    .elevated-card {
+      background-color: #ffffff;
+      border: 1px solid rgba(15, 23, 42, 0.08);
+      box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.03), 0 1px 2px -1px rgba(15, 23, 42, 0.03);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface antialiased min-h-screen flex flex-col font-body-md text-body-md">
+<!-- Top Navigation Anchor (Shared Component: TopNavBar mapped) -->
+<header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-md border-b border-outline-variant shadow-sm transition-all duration-200">
+<div class="max-w-container-max-lg mx-auto flex justify-between items-center px-4 md:px-8 h-16">
+<div class="flex items-center gap-3">
+<span class="text-label-md font-label-md uppercase tracking-wider text-on-surface font-bold">Executive Profile</span>
+<div class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-surface-container-low border border-outline-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse"></span>
+<span class="text-caption font-caption text-secondary">Available for Q2 Advisory</span>
+</div>
+</div>
+<!-- Center navigation links on larger screens -->
+<nav class="hidden md:flex items-center space-x-6">
+<a class="text-primary font-semibold border-b-2 border-primary pb-1 text-label-md font-label-md" href="#overview">Overview</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors duration-150 text-label-md font-label-md" href="#advisory">Advisory</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors duration-150 text-label-md font-label-md" href="#engage">Engage</a>
+</nav>
+<!-- Trailing Quick Actions from JSON Anchor -->
+<div class="flex items-center gap-2">
+<button aria-label="Share" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-low transition-colors duration-150 active:scale-[0.98]" id="headerShareBtn">
+<span class="material-symbols-outlined text-[20px]" data-icon="share">share</span>
+</button>
+<button aria-label="Download vCard" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-low transition-colors duration-150 active:scale-[0.98]" onclick="downloadVCard()">
+<span class="material-symbols-outlined text-[20px]" data-icon="download">download</span>
+</button>
+<a class="hidden sm:inline-flex items-center justify-center px-3.5 py-1.5 rounded bg-primary text-on-primary text-label-md font-label-md hover:bg-primary-container active:scale-[0.98] transition-all" href="#engage">
+          Book Call
+        </a>
+</div>
+</div>
+</header>
+<!-- Main Canvas -->
+<main class="flex-grow pt-20 pb-16 px-4 md:px-8 w-full max-w-container-max-md mx-auto flex flex-col gap-6">
+<!-- Mobile Live Status Notification Bar -->
+<div class="sm:hidden flex items-center justify-between px-3.5 py-2 rounded-xl bg-surface-container-lowest border border-outline-variant text-caption font-caption text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-600"></span>
+</span>
+<span class="font-medium text-on-surface">Available for Advisory</span>
+</div>
+<span class="text-secondary font-mono text-[11px]">UTC-5 / NYC</span>
+</div>
+<!-- Section: Hero Profile Card -->
+<section class="elevated-card rounded-xl p-5 md:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 relative overflow-hidden" id="overview">
+<!-- Portrait container with precision rim -->
+<div class="relative shrink-0 mx-auto sm:mx-0">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full p-[2px] bg-surface-container-lowest ring-1 ring-black/10 overflow-hidden shadow-sm">
+<img alt="Alexander Wright" class="w-full h-full object-cover rounded-full" data-alt="A distinguished executive portrait of Alexander Wright, a male strategic advisor in his early forties with a poised and confident demeanor, dressed in a tailored charcoal Italian wool blazer over a crisp open-collar white shirt. The photo is captured in an elegant, sunlit modern executive suite with soft-focus architectural glass and muted concrete finishes in the background. Natural high-key ambient morning lighting casts gentle gradients, reflecting extreme professionalism and understated sophistication." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOZMS0M8youJF9dg9SCdTKhRohSP1HRGs1a3guScarZUBzwbHJvo6Qh-XJsscjz-Db4XylKvxWllLYtfmOpPiCJsJGqJH3mHPR2aO3ASzYLAhHl-2EAP4IaAdgY4Z8hbVzIpjzW7tZSYHUch_B2AxG0dHLMZfZotLoRVq2nrBvTnfcI3G6dFN-FJwc1V8l45e5YGLaDPX3j28SBhB8CedX6Ga1Gx6tWEyky7FDyBqjM3aNukrzVMKS"/>
+</div>
+<div class="absolute bottom-1 right-1 w-5 h-5 rounded-full bg-surface-container-lowest p-[2px] flex items-center justify-center shadow">
+<span class="w-full h-full rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[13px]" data-icon="verified" style="font-variation-settings: 'FILL' 1;">verified</span>
+</span>
+</div>
+</div>
+<!-- Identity & Statement -->
+<div class="flex flex-col text-center sm:text-left flex-1 min-w-0">
+<div class="flex items-center justify-center sm:justify-start gap-2 mb-1">
+<h1 class="text-headline-md font-headline-md sm:text-headline-lg font-bold text-on-surface tracking-tight">Alexander Wright</h1>
+</div>
+<p class="text-label-md font-label-md text-secondary font-medium tracking-tight mb-2.5">
+          Strategic Advisor &amp; Venture Operator
+        </p>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+          Guiding Series B–Growth stage founders and enterprise boards across market expansion, operational resilience, and capital allocation.
+        </p>
+</div>
+</section>
+<!-- Section: Quick Contact Priority Bar (High Conversion) -->
+<section aria-label="Quick Actions" class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+<!-- Action 1: Save Contact (vCard) -->
+<button class="flex flex-col items-center justify-center p-3.5 rounded-xl bg-primary text-on-primary hover:bg-primary-container active:scale-[0.98] transition-all shadow-sm group" onclick="downloadVCard()">
+<span class="material-symbols-outlined text-[24px] mb-1.5 group-hover:-translate-y-0.5 transition-transform" data-icon="person_add">person_add</span>
+<span class="text-label-sm font-label-sm tracking-wider uppercase">Save Contact</span>
+</button>
+<!-- Action 2: Book Call -->
+<a class="flex flex-col items-center justify-center p-3.5 rounded-xl bg-surface-container-lowest border border-outline-variant hover:border-outline text-on-surface active:scale-[0.98] transition-all shadow-sm group" href="#engage">
+<span class="material-symbols-outlined text-[24px] text-secondary mb-1.5 group-hover:-translate-y-0.5 transition-transform" data-icon="calendar_month">calendar_month</span>
+<span class="text-label-sm font-label-sm tracking-wider uppercase">Book 15m Call</span>
+</a>
+<!-- Action 3: Email Direct -->
+<a class="flex flex-col items-center justify-center p-3.5 rounded-xl bg-surface-container-lowest border border-outline-variant hover:border-outline text-on-surface active:scale-[0.98] transition-all shadow-sm group" href="mailto:alexander@wrightadvisory.com">
+<span class="material-symbols-outlined text-[24px] text-secondary mb-1.5 group-hover:-translate-y-0.5 transition-transform" data-icon="mail">mail</span>
+<span class="text-label-sm font-label-sm tracking-wider uppercase">Email Direct</span>
+</a>
+<!-- Action 4: Direct Phone / Signal -->
+<a class="flex flex-col items-center justify-center p-3.5 rounded-xl bg-surface-container-lowest border border-outline-variant hover:border-outline text-on-surface active:scale-[0.98] transition-all shadow-sm group" href="tel:+12125550198">
+<span class="material-symbols-outlined text-[24px] text-secondary mb-1.5 group-hover:-translate-y-0.5 transition-transform" data-icon="call">call</span>
+<span class="text-label-sm font-label-sm tracking-wider uppercase">Call / Signal</span>
+</a>
+</section>
+<!-- Section: Core Focus Tags & Practice Areas -->
+<section class="elevated-card rounded-xl p-5 md:p-6 flex flex-col gap-3" id="advisory">
+<div class="flex items-center justify-between border-b border-outline-variant/60 pb-3">
+<span class="text-label-sm font-label-sm uppercase tracking-wider text-secondary">Advisory Focus &amp; Domains</span>
+<span class="text-caption font-caption text-on-surface-variant font-mono">12+ Yrs Venture Leadership</span>
+</div>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low border border-outline-variant text-label-sm font-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="trending_up">trending_up</span>
+          Enterprise GTM
+        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low border border-outline-variant text-label-sm font-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="account_balance">account_balance</span>
+          Venture Capital &amp; Structuring
+        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low border border-outline-variant text-label-sm font-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="shield">shield</span>
+          Board Advisory &amp; Governance
+        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low border border-outline-variant text-label-sm font-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="hub">hub</span>
+          M&amp;A Integration
+        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low border border-outline-variant text-label-sm font-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="smart_toy">smart_toy</span>
+          Applied AI Strategy
+        </span>
+</div>
+</section>
+<!-- Section: Direct Communication Terminals (Interactive Slot Cards) -->
+<section aria-label="Direct Communication Items" class="flex flex-col gap-2.5">
+<div class="px-1 flex justify-between items-center">
+<h2 class="text-label-sm font-label-sm uppercase tracking-wider text-secondary">Verified Terminals</h2>
+<span class="text-caption font-caption text-outline">End-to-End Encrypted</span>
+</div>
+<!-- Item: Corporate Office Direct -->
+<div class="elevated-card rounded-xl p-4 flex items-center justify-between transition-all hover:border-outline duration-150">
+<div class="flex items-center gap-3.5 min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[20px]" data-icon="alternate_email">alternate_email</span>
+</div>
+<div class="min-w-0">
+<div class="text-label-md font-label-md text-on-surface truncate">alexander@wrightadvisory.com</div>
+<div class="text-caption font-caption text-secondary">Direct Priority Inbox</div>
+</div>
+</div>
+<div class="flex items-center gap-1 pl-2">
+<button class="p-2 rounded hover:bg-surface-container-low text-secondary hover:text-on-surface transition-colors" onclick="copyText('alexander@wrightadvisory.com', this)" title="Copy Email">
+<span class="material-symbols-outlined text-[18px]" data-icon="content_copy">content_copy</span>
+</button>
+<a class="p-2 rounded hover:bg-surface-container-low text-secondary hover:text-on-surface transition-colors" href="mailto:alexander@wrightadvisory.com" title="Compose Email">
+<span class="material-symbols-outlined text-[18px]" data-icon="arrow_outward">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Item: Private Line / Signal -->
+<div class="elevated-card rounded-xl p-4 flex items-center justify-between transition-all hover:border-outline duration-150">
+<div class="flex items-center gap-3.5 min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[20px]" data-icon="phone_iphone">phone_iphone</span>
+</div>
+<div class="min-w-0">
+<div class="text-label-md font-label-md text-on-surface truncate">+1 (212) 555-0198</div>
+<div class="text-caption font-caption text-secondary">Mobile &amp; Encrypted Signal</div>
+</div>
+</div>
+<div class="flex items-center gap-1 pl-2">
+<button class="p-2 rounded hover:bg-surface-container-low text-secondary hover:text-on-surface transition-colors" onclick="copyText('+12125550198', this)" title="Copy Number">
+<span class="material-symbols-outlined text-[18px]" data-icon="content_copy">content_copy</span>
+</button>
+<a class="p-2 rounded hover:bg-surface-container-low text-secondary hover:text-on-surface transition-colors" href="tel:+12125550198" title="Dial Call">
+<span class="material-symbols-outlined text-[18px]" data-icon="arrow_outward">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Item: Executive Scheduling -->
+<div class="elevated-card rounded-xl p-4 flex items-center justify-between transition-all hover:border-outline duration-150">
+<div class="flex items-center gap-3.5 min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[20px]" data-icon="schedule">schedule</span>
+</div>
+<div class="min-w-0">
+<div class="text-label-md font-label-md text-on-surface truncate">Advisory Consultation Slot</div>
+<div class="text-caption font-caption text-secondary">Pre-vetted 15 or 30-min brief</div>
+</div>
+</div>
+<div class="pl-2">
+<a class="inline-flex items-center gap-1 px-3 py-1.5 rounded bg-surface-container-low border border-outline-variant hover:border-outline text-label-sm font-label-sm text-on-surface transition-colors" href="#engage">
+<span>Schedule</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Item: Global Headquarter Presence -->
+<div class="elevated-card rounded-xl p-4 flex items-center justify-between">
+<div class="flex items-center gap-3.5 min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[20px]" data-icon="apartment">apartment</span>
+</div>
+<div class="min-w-0">
+<div class="text-label-md font-label-md text-on-surface truncate">Wright &amp; Partners Advisory LLC</div>
+<div class="text-caption font-caption text-secondary">540 Madison Ave, New York, NY</div>
+</div>
+</div>
+<div class="text-caption font-caption text-secondary px-2">
+          NYC / LON
+        </div>
+</div>
+</section>
+<!-- Section: Send Note (Minimal 3-field unobtrusive contact drawer) -->
+<section class="elevated-card rounded-xl p-5 md:p-6 flex flex-col gap-4" id="engage">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<h2 class="text-headline-sm font-headline-sm text-on-surface font-semibold">Transmit Direct Brief</h2>
+<span class="text-caption font-caption text-secondary">24h SLA</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant">
+          Leave a concise message for partnership, advisory inquiries, or syndicate invitations.
+        </p>
+</div>
+<form class="flex flex-col gap-3.5" id="contactForm" onsubmit="handleFormSubmit(event)">
+<div>
+<label class="block text-label-sm font-label-sm text-on-surface mb-1" for="senderName">Your Full Name &amp; Role</label>
+<input class="w-full h-11 px-3.5 rounded bg-surface-container-lowest border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary text-body-sm font-body-sm text-on-surface placeholder:text-secondary outline-none transition-colors" id="senderName" placeholder="e.g. Eleanor Vance, Managing Partner" required="" type="text"/>
+</div>
+<div>
+<label class="block text-label-sm font-label-sm text-on-surface mb-1" for="senderEmail">Direct Work Email</label>
+<input class="w-full h-11 px-3.5 rounded bg-surface-container-lowest border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary text-body-sm font-body-sm text-on-surface placeholder:text-secondary outline-none transition-colors" id="senderEmail" placeholder="vance@meridiancapital.com" required="" type="email"/>
+</div>
+<div>
+<label class="block text-label-sm font-label-sm text-on-surface mb-1" for="senderMessage">Discussion Outline</label>
+<textarea class="w-full p-3.5 rounded bg-surface-container-lowest border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary text-body-sm font-body-sm text-on-surface placeholder:text-secondary outline-none transition-colors resize-none" id="senderMessage" placeholder="Brief scope, target timeline, or board mandate context..." required="" rows="3"></textarea>
+</div>
+<button class="h-11 px-6 rounded bg-primary text-on-primary text-label-md font-label-md font-semibold hover:bg-primary-container active:scale-[0.99] transition-all flex items-center justify-center gap-2 shadow-sm" id="submitBtn" type="submit">
+<span class="material-symbols-outlined text-[18px]" data-icon="send">send</span>
+<span>Send Message</span>
+</button>
+</form>
+<div class="hidden p-3 rounded bg-surface-container-low border border-outline-variant text-body-sm font-body-sm text-on-surface text-center" id="formSuccessToast">
+        Thank you. Your message has been encrypted and relayed directly to Alexander's terminal.
+      </div>
+</section>
+<!-- Quick Floating Action Bar for Single-Tap Mobile Access -->
+<div class="sm:hidden sticky bottom-4 z-40 w-full flex gap-2 pt-2">
+<button class="flex-1 h-12 rounded-xl bg-primary text-on-primary flex items-center justify-center gap-2 text-label-md font-label-md font-semibold shadow-lg active:scale-[0.98] transition-transform" onclick="downloadVCard()">
+<span class="material-symbols-outlined text-[20px]" data-icon="contact_page">contact_page</span>
+<span>Save vCard</span>
+</button>
+<a aria-label="Direct Phone Dial" class="w-12 h-12 rounded-xl bg-surface-container-lowest border border-outline-variant flex items-center justify-center text-on-surface shadow-lg active:scale-[0.98] transition-transform" href="tel:+12125550198">
+<span class="material-symbols-outlined text-[20px]" data-icon="phone">phone</span>
+</a>
+</div>
+</main>
+<!-- Footer Component (Shared Component: Footer mapped) -->
+<footer class="w-full py-8 px-4 md:px-8 max-w-container-max-lg mx-auto flex flex-col md:flex-row justify-between items-center gap-4 border-t border-outline-variant bg-surface text-on-surface-variant text-caption font-caption">
+<div class="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
+<span class="font-label-sm text-on-surface font-semibold">Alexander Wright Advisory</span>
+<span class="hidden sm:inline text-outline-variant">|</span>
+<span>© 2025 Executive Advisory. All rights reserved. Confidential &amp; Proprietary.</span>
+</div>
+<!-- Links matching Footer JSON requirement exactly -->
+<div class="flex flex-wrap items-center justify-center gap-4 text-label-sm font-label-sm">
+<a class="text-on-surface-variant hover:text-on-surface transition-colors duration-150" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors duration-150" href="#engage">Direct Terminal</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors duration-150" href="#engage">Schedule Consult</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors duration-150" href="#privacy" onclick="alert('Client information and interactions remain protected under strict non-disclosure obligations.'); return false;">Privacy Notice</a>
+</div>
+</footer>
+<!-- Notification Toast for Copying -->
+<div class="fixed bottom-20 left-1/2 -translate-x-1/2 z-50 bg-primary text-on-primary px-4 py-2 rounded shadow-lg text-label-sm font-label-sm opacity-0 pointer-events-none transition-opacity duration-200" id="toast">
+    Copied to clipboard
+  </div>
+<script>
+    // Copy Text Micro-interaction
+    function copyText(text, btnElement) {
+      navigator.clipboard.writeText(text).then(() => {
+        const toast = document.getElementById('toast');
+        toast.textContent = 'Copied: ' + text;
+        toast.classList.remove('opacity-0');
+        toast.classList.add('opacity-100');
+        setTimeout(() => {
+          toast.classList.remove('opacity-100');
+          toast.classList.add('opacity-0');
+        }, 2000);
+      });
+    }
+
+    // Dynamic vCard .vcf generation and download
+    function downloadVCard() {
+      const vcardData = [
+        'BEGIN:VCARD',
+        'VERSION:3.0',
+        'N:Wright;Alexander;;;',
+        'FN:Alexander Wright',
+        'ORG:Wright & Partners Advisory LLC',
+        'TITLE:Strategic Advisor & Venture Operator',
+        'EMAIL;type=INTERNET;type=WORK:alexander@wrightadvisory.com',
+        'TEL;type=CELL;type=VOICE:+12125550198',
+        'ADR;type=WORK:;;540 Madison Ave;New York;NY;10022;United States',
+        'NOTE:Available for Growth & Board Advisory mandates.',
+        'END:VCARD'
+      ].join('\r\n');
+
+      const blob = new Blob([vcardData], { type: 'text/vcard;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'Alexander_Wright.vcf');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    }
+
+    // Share API fallback
+    document.getElementById('headerShareBtn').addEventListener('click', () => {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Alexander Wright — Executive Advisory',
+          text: 'Digital Business Card & Profile for Alexander Wright, Strategic Advisor.',
+          url: window.location.href,
+        }).catch(() => {});
+      } else {
+        copyText(window.location.href);
+      }
+    });
+
+    // Form Submission Interaction
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const submitBtn = document.getElementById('submitBtn');
+      const toast = document.getElementById('formSuccessToast');
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] animate-spin">refresh</span><span>Transmitting...</span>';
+      
+      setTimeout(() => {
+        document.getElementById('contactForm').reset();
+        submitBtn.classList.add('hidden');
+        toast.classList.remove('hidden');
+      }, 750);
+    }
+  </script>
+</body></html>
